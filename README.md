@@ -10,13 +10,13 @@ This project uses **glassmorphism**, **custom cursor**, and smooth transitions f
 
 ## 🖥️ Live Demo
 
-🌐 **Live Site**: [View on Netlify](https://your-netlify-link.netlify.app)
+🌐 **Live Site**: [View on Netlify](https://glassmorphismauthui.netlify.app/)
 
 ---
 
 ## 📸 Preview
 
-![SA Auth Form Preview](./Auth Form.png)
+![SA Auth Form Preview](./AuthForm.png)
 
 ---
 
