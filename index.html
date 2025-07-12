@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Auth Form</title>
+<link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+
+  <div class="SA-cursor" id="cursor"></div>
+
+  <div class="SA-auth-container">
+    <!-- Login Form -->
+    <div id="loginSection">
+      <div class="SA-auth-icon">🔒</div>
+      <h2 class="SA-auth-title">Welcome Back</h2>
+      <form id="loginForm">
+        <div class="SA-input-group">
+          <input type="email" placeholder="Email Address" required />
+        </div>
+        <div class="SA-input-group">
+          <input type="password" id="loginPassword" placeholder="Password" required />
+          <span class="SA-eye-icon" id="toggleLoginPassword">👁️</span>
+        </div>
+        <button type="submit" class="SA-auth-btn">Login</button>
+      </form>
+      <p class="SA-toggle-text">Don't have an account?<span class="SA-toggle-link" id="goToSignup">Sign up</span></p>
+    </div>
+
+    <!-- Signup Form -->
+    <div id="signupSection" class="SA-hidden">
+      <div class="SA-auth-icon">👋</div>
+      <h2 class="SA-auth-title">Create Account</h2>
+      <form id="signupForm">
+        <div class="SA-input-group">
+          <input type="text" placeholder="Full Name" required />
+        </div>
+        <div class="SA-input-group">
+          <input type="email" placeholder="Email Address" required />
+        </div>
+        <div class="SA-input-group">
+          <input type="password" id="signupPassword" placeholder="Password" required />
+          <span class="SA-eye-icon" id="toggleSignupPassword">👁️</span>
+        </div>
+        <button type="submit" class="SA-auth-btn">Sign Up</button>
+      </form>
+      <p class="SA-toggle-text">Already have an account?<span class="SA-toggle-link" id="goToLogin">Login</span></p>
+    </div>
+  </div>
+
+ <script src="./script.js"></script>
+
+</body>
+</html>
